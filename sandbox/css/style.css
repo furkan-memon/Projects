@@ -577,7 +577,7 @@ font-size: 17px;
      margin-top: 30px;
 }
 
-.R-Swiper .left{
+.R-Swiper .left a{
      height: 60px;
      width: 60px;
      background: #6871BC;
@@ -585,8 +585,9 @@ font-size: 17px;
      display: flex;
      justify-content: center;
      align-items: center;
+     opacity: 0.6;
 }
-.R-Swiper .right{
+.R-Swiper .right  a{
      height: 60px;
      width: 60px;
      background: #6871BC;
@@ -597,6 +598,7 @@ font-size: 17px;
 }
 .relationships {
  display: flex;
+ padding-bottom: 100px;
 }
 .relationships_text{
     padding-top:  50px;
@@ -633,4 +635,85 @@ font-size: 17px;
     font-size: 17px;
     font-weight: 500;
     color: #343f52d7;
+}
+
+.model_text h3{
+   
+ font-size: 38px;
+ margin-bottom: 15px;
+ margin-top: 40px;
+line-height: 48px;
+color: #343F52;
+font-weight: bold;
+letter-spacing: -2;
+}
+.model{
+    display: flex;
+    padding: 100px 0;
+}
+.model_left{
+    padding-inline: 35px;
+}
+
+
+
+
+
+.mode_img img{
+    margin-left: 35px;
+}
+.model_text button{
+   background-color: #0000;
+border: 2px solid transparent;
+}
+.work p{
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #4b4b3b;
+}
+.model_text i{
+    margin-right: 10px;
+    color: #717ace;
+}
+.Hcustomers h3{
+    text-align: center;
+     font-size: 38px;
+     font-weight: bold;
+     color: #232935;
+     margin-bottom: 40px;
+
+     
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.Rcard1{
+    background: #FEFEFE;
+    /* width: 100%; */
+    padding: 40px;
+    /* width: 600px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.Rcard1 p{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 35px;
+    font-size: 18px;
+   max-width: 420px;
+   margin-top: 20px;
+   color:#60697B ;padding-inline: 40px;
+   font-weight: 500;
+
+}
+.Rcard1 .Dp img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 30px;
 }
