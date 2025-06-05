@@ -40,9 +40,10 @@ a{
 
 
 .container {
-    width: 1556px;
+    max-width: 1600px;
     margin: auto;
-    padding-inline: 50px;    
+    padding-inline: 50px;   
+    position: relative; 
 }
    
 
@@ -68,7 +69,9 @@ a{
     
 }
 .navbar{
-   
+   position: sticky;
+    top: 0;
+     z-index: 1;
     height: 74px;;
     background: #ffff;
     max-width: 1290px;
@@ -239,6 +242,7 @@ a{
 }
 .left-cards{
     display: flex;
+    gap: 0px;
     
     /* max-width: 1100px; */
     /* float: left; */
@@ -268,7 +272,7 @@ a{
 
 .card2{
     text-align: center;
-    /* width: 300px; */
+    width: 340px;
     padding: 40px;
     /* padding-inline: 70px; */
     border-radius: 10px;
@@ -300,11 +304,12 @@ a{
 
 .card3{
     text-align: center;
-
+    width: 340px;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
     margin-top: 60px;
+    margin-right: 10px;
     margin-left: 30px;
     line-height: 29px;
 
@@ -339,32 +344,33 @@ a{
 }
 .right{
   
-    margin-left: 20px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
- .right_text_btn{  
-     margin-left: 100px;
-     margin-right: 150px;
-
-}
+ 
 .right h3{
-    /* max-width: 900px; */
+    
+    font-weight: 600;
     font-size: 38px;
    color:  #343F52;
 }
-.right :nth-child(2){
-    max-width: 900px;
+.right_text_btn p:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     line-height: 33px;
      font-size: 22px;
+     font-weight: 500;
     color: #60697B;
 }
 
-.right :nth-child(3){
-    max-width: 900px;
+.right_text_btn :nth-child(3){
+    max-width: 550px;
+    /* display: flex;
+    flex-wrap: wrap; */
 
     margin-top: 30px;
     line-height: 30px;
@@ -383,13 +389,12 @@ padding-bottom: 100px;
 }
 .Community_text{
     padding-inline: 50px;
-    width: 650px;
+    /* width: 650px; */
     margin-left: 20px;
    
 }
 
 .Community_text h3{
-    
     font-size: 38px;
    color:  #343F52;
    font-weight: 600;
@@ -397,7 +402,7 @@ padding-bottom: 100px;
    letter-spacing: normal;
 }
 .Community_text :nth-child(2){
-    max-width: 900px;
+    max-width: 550px;
     margin-top: 20px;
     line-height: 33px;
     font-size: 22px;
@@ -406,17 +411,19 @@ padding-bottom: 100px;
 }
 
 .Community_text :nth-child(3){
-    /* max-width: 900px; */
-
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     line-height: 30px;
     font-size: 17px;
     font-weight: 500;
-    color: #343f52d7;
+    color: #60697B;
 }
 .Community_ex{
     display: flex;
     flex-direction: column;
+    margin-left: 200px;
    
 }
 
@@ -435,17 +442,7 @@ padding-bottom: 100px;
   border-radius: 10PX;
   padding-right:60PX ;
 }
-.Community_ex h3{
-   font-size: 40px;
-    line-height: 40px;
-    color: #343F52;
-}
-.Community_ex p{
- font-size: 17px;
-    line-height: 28px;
-    color: #60697B;
-   /* max-width: 100px; */
-}
+
 .p-icons{
     height: 60px;
     width: 60px;
