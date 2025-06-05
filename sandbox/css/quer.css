@@ -124,6 +124,10 @@
     max-width: 700px;
     /* font-size: 17px; */
 }
+.right :nth-child(3){
+    /* max-width: 700px; */
+    font-size: 17px;
+}
 .Community{
     display: flex;
     flex-direction: column-reverse;
