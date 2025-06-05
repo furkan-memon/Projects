@@ -9,8 +9,23 @@
 
 @media (max-width:1199px) {
     /* .container{
-        padding-inline: 0;
-        max-width: 720;
+        
+     
+    max-width: 1500px;
+    margin: auto;
+    padding-inline: 20px;    
+
+    }
+    .card_first .card1{
+      width: 50%;
+    }
+    .card_first .card2{
+          padding: 50px;
+          max-width: 230px;
+    }
+
+    .card_second .card3{
+     max-width: 180px;
     } */
 }
 
@@ -27,6 +42,7 @@
         height: 74;
         margin: 0;
         padding: 15px;
+        padding-inline: 130px;
         margin-top: 0;
           
         border-radius: 0;
@@ -40,6 +56,7 @@
 
     
     .container{
+        max-width: 1000px;
         padding-inline: 0;
         /* max-width: calc(1px -1em); */
         margin: auto;
@@ -65,7 +82,117 @@
         flex-direction: column;
         text-align: center;
     }
-    
+    .card_second .card3{
+     margin-top: 0;
+    } 
+    .service{
+   
+    display: inline-block;
+    /* margin: auto; */
+    padding: 100px 0;
+}
+.card_first{
+    margin-left: 40px;
+ }
+   .award{
+    background: transparent;
+    box-shadow: none;
+   } 
+   .card1 img{
+    width: 390px;
+    margin-left: 50px;
+   }
+   .card2{
+    max-width: 390px;
+    margin-left: 50px;
+   }
+    .card3{
+   max-width: 390px;
+   height: 379px;
+        /* margin-right: 50px; */
+   }
+   .card4 img{
+    width: 390px;
+    margin-left: 35px;
+    height: 350px;
+   }
+   .right_text_btn{  
+     margin-left: 70px;
+     margin-right: 150px;
+}
+.right :nth-child(2){
+    max-width: 700px;
+    /* font-size: 17px; */
+}
+.Community{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0;
+}
+.Community_ex{
+    display: flex;
+    /* justify-content: ; */
+    margin-left: 40px;
+}
+.project{
+    background: transparent;
+    box-shadow: none;
+    margin-left: 30px;
+}
+
+.first_ex{
+    display: inline;
+}
+.customers{
+    background: transparent;
+    box-shadow: none;
+}
+.second_ex{
+    display: inline;
+}
+.expart_emp{
+    background: transparent;
+    box-shadow: none;
+    margin-left: 30px;
+   
+}
+
+/* .left-cards{
+margin-right :40px;
+} */
+ 
+.R-projects img{
+     height:231px ;
+     width:330px;
+}
+.Recent h3{
+     padding-bottom: 50px;
+     margin-right: 140px;
+     font-size: 33px;
+
+}
+.R-Swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -170px;
+    right:20px;
+}
+.R-Swiper .right-arrow  a{
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+
+
+
+}
+.R-Swiper .left-arrow a{
+    height: 40px;
+    width: 40px;
+    /* font-size: 15px; */
+}
+
+
 }  
    
 
