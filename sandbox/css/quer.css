@@ -140,7 +140,7 @@
 
     .right_text_btn {
         margin: 0;
-        margin-left: 80px;
+        margin-left: 90px;
         /* margin-right: 100px; */
     }
 
@@ -163,12 +163,15 @@
     .Community_ex {
         display: flex;
         /* justify-content: ; */
-        margin-left: 40px;
+        margin-left: 90px;
     }
 
     .Community_ex p {
         max-width: 100px;
     }
+      .Community_text{
+        margin-left: 90px;
+      }
 
     .Community_text :nth-child(2) {
         max-width: 700px;
