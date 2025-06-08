@@ -443,7 +443,7 @@
 
 @media (max-width:576px) {
     .container {
-        max-width: 80%;
+/*         max-width: 80%; */
         padding-inline: 0;
     }
     .icons ul .social {
@@ -477,7 +477,7 @@
 
 @media (max-width:480px) {
     .container {
-        max-width: 80%;
+/*         max-width: 80%; */
         padding-inline: 0;
     }
 
