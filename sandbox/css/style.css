@@ -160,13 +160,10 @@ a{
         flex-direction: column;
     }
 .buttan{
-   
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-
-
 }
 
 .buttan  a:nth-child(1){
@@ -186,6 +183,7 @@ a{
 
 
 }
+ 
 .buttan :nth-child(2){
      height: 57px;
     width: 154px;
@@ -886,3 +884,31 @@ address{
   font-weight: 500;
 
 }
+.border{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(20 19 19 / 20%);
+ }
+ 
+ .copyright-section{
+   margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .cs-right p{
+    font-size: 22px;
+    color: #60697B;
+ }
+ .icons ul li a{
+transform: translateY(0px);
+    transition: 0.3s;
+ }
+ .icons ul li a:hover{
+    color: #747ED1;
+    transform: translateY(-5px);
+    transition: 0.3s;
+ }
+ 
+ 
