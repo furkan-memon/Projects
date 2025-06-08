@@ -39,7 +39,7 @@
         width: 100%;
         height: 74;
         margin: 0;
-        padding: 0px 70px;
+        padding: 0px 100px;
         margin-top: 0;
 
         border-radius: 0;
@@ -53,10 +53,8 @@
 
 
     .container {
-        /* max-width: 1100px; */
+        /* max-width: 100%; */
         padding-inline: 0;
-        /* max-width: calc(1px -1em); */
-        margin: auto;
     }
 
     .flex-container {
@@ -81,30 +79,22 @@
         text-align: center;
     }
 
-    .card_second .card3 {
+    /* .card_second .card3 {
         margin-top: 0;
-    }
+    } */
 
     .service {
 
         display: inline-block;
-        /* margin: auto; */
         padding: 100px 0;
     }
 
-    .left-cards {
+    .card {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 80px;
-
-        
-        
     }
 
-    .card_first {
-        /* margin-left: 40px; */
-    }
 
     .award {
         background: transparent;
@@ -113,12 +103,12 @@
 
     .card1 img {
         width: 340px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .card2 {
         max-width: 390px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .card3 {
@@ -126,30 +116,35 @@
         /* height: 379px; */
         /* padding-bottom: 0; */
         /* margin-right: 50px; */
+        margin-top: 0px;
     }
 
     .card4 img {
         width: 340px;
         margin-left: 35px;
-        height: 335px;
+        /* height: 335px; */
     }
 
     .right {
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .right_text_btn {
         margin: 0;
-        margin-left: 90px;
+        /* margin-left: 90px; */
         /* margin-right: 100px; */
     }
 
-    .right_text_btn p {
+    .right_text_btn :nth-child(2){
         max-width: 700px;
-/*         font-size: 17px; */
+
+    }
+    .right_text_btn :nth-child(3){
+        max-width: 700px;
+
     }
 
-   
+  
 
     .Community {
         display: flex;
@@ -201,9 +196,7 @@
 
     }
 
-    /* .left-cards{
-margin-right :40px;
-} */
+    
 
     .R-projects img {
         height: 231px;
@@ -248,9 +241,12 @@ margin-right :40px;
 
 
 @media (max-width:768px) {
+        .container {
+        margin: 0;
+        padding-inline: 0;
+    }
 
-
-
+     
     .mobile-manu {
         margin-right: 5px;
         text-wrap: nowrap;
@@ -281,10 +277,96 @@ margin-right :40px;
         max-width: 510px;
         max-height: 335px;
     }
+     .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+
+    }
+
+    .left-cards{
+    display: inline;
+    margin-left: 20px;
+}
+    .left-cards .card1 img {
+        width: 70%;
+    
+    }
+
+    .left-cards .card2 {
+        width: 70%;
+        padding: 50px;
+        max-width: 100%;
+    }
+
+    .left-cards .card3 {
+        width: 70%;
+        max-width: 100%;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+     .card_second{
+        display: flex;
+        flex-direction: column-reverse
+        
+     }
+    .left-cards .card4 img{
+        width: 70%;
+        max-width: 100%;
+        margin-left: 80px;
+        /* height: 0px; */
+    }
+
+    
+    .right {
+        margin-left: 130px;
+       
+    }
+
+    .right_text_btn {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 90px; */
+        /* margin-right: 100px; */
+    }
+
+    .right_text_btn :nth-child(2){
+        max-width: 500px;
+
+    }
+    .right_text_btn :nth-child(3){
+        max-width: 550px;
+
+    }
+
+
+    .right_text_btn {
+        margin-left: 0;
+    }
+     .Community{
+        /* margin-left: 10px; */
+     }
+    .Community_ex {
+        margin-left: 100px;
+    }
+
+     
+     .Community_text {
+        margin-left: 80px;
+       
+    }
+    
+
 
 }
 
 @media (max-width:576px) {
+    .container {
+        max-width: 80%;
+        padding-inline: 0;
+    }
     .icons ul .social {
 
         display: none;
@@ -311,9 +393,14 @@ margin-right :40px;
 
     }
 
+
 }
 
 @media (max-width:480px) {
+    .container {
+        max-width: 80%;
+        padding-inline: 0;
+    }
 
     .craft-text h1 {
         max-width: 600px;

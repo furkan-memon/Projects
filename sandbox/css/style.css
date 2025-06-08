@@ -240,10 +240,6 @@ a{
 }
 .left-cards{
     display: flex;
-    gap: 0px;
-    
-    /* max-width: 1100px; */
-    /* float: left; */
 }
 .right{
     margin-top: 50px;
@@ -350,7 +346,7 @@ a{
 }
  
 .right h3{
-    
+    max-width: 800px;
     font-weight: 600;
     font-size: 38px;
    color:  #343F52;
@@ -421,9 +417,10 @@ padding-bottom: 100px;
 .Community_ex{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 80px;
    
 }
+
 
 .first_ex{
     display: flex;
