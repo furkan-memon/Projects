@@ -279,7 +279,6 @@
     .craft-text p {
         max-width: 650px;
         font-size: 24px;
-        font-size: 35px;
         margin-inline: 20px;
         margin-inline: auto;
     }
@@ -307,20 +306,23 @@
     margin-left: 20px;
 }
     .left-cards .card1 img {
-        width: 70%;
+        width: 90%;
+        margin-left: 0px;
     
     }
 
     .left-cards .card2 {
-        width: 70%;
+        width: 90%;
         padding: 50px;
         max-width: 100%;
+        margin-left: 0px;
+
     }
 
     .left-cards .card3 {
-        width: 70%;
+        width: 90%;
         max-width: 100%;
-        margin-left: 80px;
+        margin-left: 0px;
         margin-top: 40px;
     }
      .card_second{
@@ -329,15 +331,15 @@
         
      }
     .left-cards .card4 img{
-        width: 70%;
+        width: 90%;
         max-width: 100%;
-        margin-left: 80px;
+        margin-left: 0px;
         /* height: 0px; */
     }
 
     
     .right {
-        margin-left: 130px;
+        margin-left: 50px;
        
     }
 
@@ -366,14 +368,74 @@
         /* margin-left: 10px; */
      }
     .Community_ex {
-        margin-left: 100px;
+        margin-left: 40px;
     }
 
      
      .Community_text {
-        margin-left: 80px;
+        margin-left: 0px;
        
     }
+    .R-projects{
+        display: flex;
+        justify-content: center;
+        margin-right: 80px;
+        }
+        .R-Swiper{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+        }
+        .Recent h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;    
+    }
+    
+    
+     .right-img
+     {
+        display: none;
+     }
+    .R-projects img:nth-child(1){
+        height: 300px;
+        width: 90%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+
+     }
+    .Recent h3 {
+        padding-bottom: 50px;
+        margin-right: 100px;
+        font-size: 33px;
+
+    }
+
+    /* .R-Swiper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 40px; */
+        /* right: 20px; */
+    /* }  */
+
+    .R-Swiper .right-arrow a {
+        height: 50px;
+        width: 50px;
+        font-size: 17px;
+
+    }
+
+    .R-Swiper .left-arrow a {
+        height: 50px;
+        width: 50px;
+        font-size: 17px;
+    }
+
     
 
 
