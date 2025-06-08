@@ -205,41 +205,42 @@
         .R-Swiper{
         display: flex;
         justify-content: center;
-        /* margin-right: 50px; */
+        margin-right: 80px;
         }
         .Recent h3{
-            /* text-align: center; */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 80px;    
+        /* margin-left: 80px;     */
     }
+    
     .R-projects img {
-        height: 231px;
-        width: 330px;
+        height: 250px;
+        width: 360px;
     }
-
+    .R-projects img:nth-child(1)
+    {
+        margin-left: 0;
+    }
     .Recent h3 {
         padding-bottom: 50px;
-        margin-right: 140px;
+        margin-right: 100px;
         font-size: 33px;
 
     }
 
-    .R-Swiper {
+    /* .R-Swiper {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 40px;
+        /* margin-left: 40px; */
         /* right: 20px; */
-    }
+    /* }  */
 
     .R-Swiper .right-arrow a {
         height: 40px;
         width: 40px;
         font-size: 15px;
-
-
 
     }
 
